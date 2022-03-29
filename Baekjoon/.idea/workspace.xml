@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6549e4ce-0a62-41b6-92e4-749b2da32c9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Baekjoon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1011.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1018.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B10250.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B10757.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B10809.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B10870.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B10872.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B10989.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1152.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1157.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B11720.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B11729.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1193.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1316.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1436.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B1712.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2231.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2292.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2447.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2675.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2750.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2751.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2775.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2839.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2869.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2908.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B2941.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B5622.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Baekjoon/B7568.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1011.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1018.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B10250.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B10757.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B10809.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B10870.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B10872.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B10989.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1152.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1157.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B11720.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B11729.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1193.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1316.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1436.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B1712.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2231.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2292.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2447.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2675.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2750.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2751.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2775.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2839.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2869.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2908.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B2941.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B5622.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/B7568.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="273ishHcC26WTdDYfTa4NkFQPoD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6549e4ce-0a62-41b6-92e4-749b2da32c9f" name="Default Changelist" comment="" />
+      <created>1648555380261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648555380261</updated>
+    </task>
+    <servers />
+  </component>
+</project>
