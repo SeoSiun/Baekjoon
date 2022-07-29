@@ -64,7 +64,6 @@ class Solution {
         
         if (iter.next == null) {
             result = iter.val;
-            list = null;
             return result;
         }
         while (iter.next.next != null) {
