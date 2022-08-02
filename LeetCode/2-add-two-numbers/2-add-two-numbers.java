@@ -8,93 +8,62 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
-// 서시언
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = null;
-        int carry = 0;
-        int add;
+        int len1 = getLength(l1), len2 = getLength(l2);
+        int i1 = 0, i2 = 0;
+        int carry = 0, add = 0;
         
-        l1 = reverse(l1);
-        l2 = reverse(l2);
-        
-        int l1Len = getLength(l1);
-        int l2Len = getLength(l2);
-
-         while (l1Len > 0 && l2Len > 0) {
-             add = popLast(l1) + popLast(l2) + carry;
-             carry = add / 10;
-             result = addLast(result, add % 10);
-             l1Len--;
-             l2Len--;
-         }
-        while (l1Len > 0) {
-            add = popLast(l1) + carry;
+        while (i1 < len1 && i2 < len2) {
+            add = getValueOf(l1, i1) + getValueOf(l2, i2) + carry;
             carry = add / 10;
             result = addLast(result, add % 10);
-            l1Len--;
+            i1++;
+            i2++;
         }
-        while (l2Len > 0l){
-            add = popLast(l2) + carry;
+        while (i1 < len1) {
+            add = getValueOf(l1, i1) + carry;
             carry = add / 10;
             result = addLast(result, add % 10);
-            l2Len--;
+            i1++;
         }
-        if (carry != 0)
+        while (i2 < len2) {
+            add = getValueOf(l2, i2) + carry;
+            carry = add / 10;
+            result = addLast(result, add % 10);
+            i2++;
+        }
+        if (carry > 0)
             result = addLast(result, carry);
         return result;
     }
     
-    private ListNode reverse(ListNode list) {
-        ListNode prev = null;
-        ListNode tmp = list;
-        ListNode next;
-        
-        while (tmp != null) {
-            next = tmp.next;
-            tmp.next = prev;
-            prev = tmp;
-            tmp = next;
+    public int getValueOf(ListNode list, int index) {
+        for(int i = 0; i < index; i++) {
+            list = list.next;
         }
-        return prev;
+        return list.val;
     }
     
-    private int popLast(ListNode list) {
-        ListNode iter = list;
-        int result;
-        
-        if (iter.next == null) {
-            result = iter.val;
-            return result;
-        }
-        while (iter.next.next != null) {
-            iter = iter.next;
-        }
-        result = iter.next.val;
-        iter.next = null;
-        return result;
-    }
-    
-    private int getLength(ListNode list) {
-        ListNode iter = list;
+    public int getLength(ListNode list) {
         int len = 0;
-        while (iter != null) {
-            iter = iter.next;
+        
+        while (list != null)
+        {
+            list = list.next;
             len++;
         }
-        return (len);
+        return len;
     }
     
     private ListNode addLast(ListNode list, int val) {
         ListNode iter = list;
         
-        if (list == null) {
+        if (list == null)
             return new ListNode(val, null);
-        }
-        while (iter.next != null) {
+        while (iter.next != null)
             iter = iter.next;
-        }
         iter.next = new ListNode(val, null);
         return list;
     }
